@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='en' onselectstart='return false'>
+<!--onselectstart
+触发时间为目标对象被开始选中时（即选中动作刚开始，尚未实质性被选中）
+基本上都能支持，但不被 input 和 textarea 标签支持
+注意：如果想在火狐中禁用的话可以使用样式控制 div { -moz-user-select: none; }
+-->
+<head>
+  <meta charset='utf-8'>
+  <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="wrap">
+    <ul id="box"></ul>
+    <div class="mask">
+      <div class="bg-mask"></div>
+    </div>
+  </div>
+<script defer src="scripts/jquery-2.2.4.min.js"></script>
+<script defer src="scripts/main.js"></script>
+</body>
+</html>
