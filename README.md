@@ -1,6 +1,11 @@
 ##源自GitHub RoyAaron： <https://github.com/RoyAaron/web-3d-flashy>
+####改进版:<https://github.com/dzr201732120115/web-3d-flashy>
+####[在线预览](https://dzr201732120115.github.io/web-3d-flashy/3d)
 ###改进：
-
+1. 增加注释
+2. 压缩jquery2.2.4
+3. github在线预览
+4. 外部化js，css，优化界面加载速度
 >1. 不要包含不必要的 JavaScript 代码，尽可能将其外部化
 与 cookie 类似，JavaScript 文件的下载也需要时间，这不可避免地会降低整个页面的加载速度。因此，明智地使用 JavaScript（仅在真正必要时才使用）并优化脚本的大小和速度。
 >2. 缩短 JavaScript 下载时间的另一种方式是使用外部文件，而不是包含脚本内联。这种方法也适用于 CSS，因为浏览器会缓存外部化的文本，而（在 HTML 页面自身中）以内联方式编码的 CSS 或 JavaScript 每次都会随 HTML 一起加载。要通过在 HTML 中引用 CSS 和 JavaScript 代码来外部化它们，可以使用具有以下形式的代码：
