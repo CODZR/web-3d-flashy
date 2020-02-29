@@ -1,7 +1,7 @@
-##源自GitHub RoyAaron： <https://github.com/RoyAaron/web-3d-flashy>
-####改进版:<https://github.com/dzr201732120115/web-3d-flashy>
-####[在线预览](https://dzr201732120115.github.io/web-3d-flashy/3d)
-###改进：
+## 源自GitHub RoyAaron： <https://github.com/RoyAaron/web-3d-flashy>
+#### 改进版:<https://github.com/dzr201732120115/web-3d-flashy>
+#### [在线预览](https://dzr201732120115.github.io/web-3d-flashy/3d)
+### 改进：
 1. 增加注释
 2. 压缩jquery2.2.4
 3. github在线预览
@@ -21,8 +21,8 @@ script放</body>前，防止旧版浏览器不兼容defer属性无效
 都用defer因为main内的函数是自定义要先引用jquery
 -->
 ```
-##[建议css放在<\/head>,js放在<\/body>前](http://vlambda.com/wz_wTk0CIh8Wn.html)
+## [建议css放在<\/head>,js放在<\/body>前](http://vlambda.com/wz_wTk0CIh8Wn.html)
 1. js用了defer或者async还放这防止旧版浏览器不兼容这两个属性
-##[defer和async区别](https://blog.csdn.net/liuhe688/article/details/51247484)
+## [defer和async区别](https://blog.csdn.net/liuhe688/article/details/51247484)
 1. defer和async是script标签的两个属性，用于在不阻塞页面文档解析的前提下，控制脚本的下载和执行。
 2. 二者都是异步下载，即构建DOM过程中同时下载Script，defer按照标签顺序下载，async无序下载。
